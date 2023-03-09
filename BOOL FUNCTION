@@ -1,0 +1,19 @@
+ #include <iostream>
+ using namespace std;
+ 
+int function(bool a);
+
+ int main()
+ {
+     bool x=false;
+     cout<<x<<endl;
+     function(x);
+     cout<<x<<endl;
+     return 0;   
+ }
+ 
+ int function(bool a)
+ {
+     a=true;
+     return a;
+ }
